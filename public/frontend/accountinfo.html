@@ -1,0 +1,407 @@
+<html lang="en">
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="og:title" content="">
+    <meta name="og:description" content="">
+    <meta name="og:image" content="">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="">
+    <!-- Mobile Metas -->
+    <meta name="description" content="">
+    <meta name="og:title" content="">
+    <meta name="og:description" content="">
+    <meta name="og:image" content="">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, user-scalable=no">
+    <!-- Web Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,800;0,900;1,100;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+            integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
+            crossorigin="anonymous" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+            integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" /> -->
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/reboot.min.css">
+    <link rel="stylesheet" href="css/grid.min.css">
+    <link rel="stylesheet" href="css/spacing.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-2 col-sm-2 col-md-2 col-lg-1 order-lg-1" id="logo">
+                    <picture>
+                        <source srcset="./images/mobile-logo.png" media="(max-width: 600px)">
+                        <img src="./images/logo.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-5 order-lg-3 has-search" id="search">
+                    <div class="search-wrapper">
+                        <form action="">
+                            <div class="search-group">
+                                <i class="fa fa-search nav-search-icon"></i>
+                                <input type="text" class="input-style" placeholder="Search Here...">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-2 order-lg-4" id="cart-login">
+                    <div class="end-icons">
+                        <div class="cart-wrapper">
+                            <a href="" class="nav-button">
+                                <i class="ti-shopping-cart"></i>
+                                <span>My Cart</span>
+                            </a>
+                        </div>
+                        <div class="login-wrapper">
+                            <a href="" class="nav-button">
+                                <i class="ti-user"></i>
+                                <span>Login</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-4 order-lg-2" id="menu">
+                    <div class="toggle-menu">
+                        <i class="ti-menu"></i> <span>Categories</span>
+                    </div>
+                    <ul class="menu">
+                        <h5>Categories <span class="close-menu"><i class="ti ti-close"></i></span></h5>
+                        <li>
+                            <a href="javascript:void(0);" class="main-menu">Mens <i class="fa fa-chevron-down"></i></a>
+                            <div class="menu-level-one">
+                                <ul class="sub-level-one">
+                                    <li>
+                                        <a href="#" class="has-sub">Topwear <i class="fa fa-chevron-right"></i></a>
+                                        <div class="menu-level-two">
+                                            <ul class="sub-level-two">
+                                                <li><a href="">T-Shirts</a></li>
+                                                <li><a href="">Casual Shirts</a></li>
+                                                <li><a href="">Formal Shirts</a></li>
+                                                <li><a href="">Sweat Shirts</a></li>
+                                                <li><a href="">Sweaters</a></li>
+                                                <li><a href="">Jackets</a></li>
+                                                <li><a href="">Blazers & Coats</a></li>
+                                                <li><a href="">Suits</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="has-sub">Bottomwear <i class="fa fa-chevron-right"></i></a>
+                                        <div class="menu-level-two">
+                                            <ul class="sub-level-two">
+                                                <li><a href="">Jeans</a></li>
+                                                <li><a href="">Casual Trousers</a></li>
+                                                <li><a href="">Formal Trousers</a></li>
+                                                <li><a href="">Shorts</a></li>
+                                                <li><a href="">Track Pants & Joggers</a></li>
+                                            </ul>
+                                    <li><a href="#">Footwear</a></li>
+                                    <li><a href="#">Innerwear & Sleepwear</a></li>
+                                    <li><a href="#">Sports & Activewear</a></li>
+                                    <li><a href="#">Fashion Accessories</a></li>
+                                    <li><a href="#">Plus Size</a></li>
+                                    <li><a href="#">Offers & Occassion</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="main-menu">Womens <i
+                                    class="fa fa-chevron-down"></i></a>
+                            <div class="menu-level-one">
+                                <ul class="sub-level-one">
+                                    <li><a href="#">Topwear</a></li>
+                                    <li><a href="#">Bottomwear</a></li>
+                                    <li><a href="#">Footwear</a></li>
+                                    <li><a href="#">Innerwear & Sleepwear</a></li>
+                                    <li><a href="#">Sports & Activewear</a></li>
+                                    <li><a href="#">Fashion Accessories</a></li>
+                                    <li><a href="#">Plus Size</a></li>
+                                    <li><a href="#">Offers & Occassion</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="main-menu">Kids <i class="fa fa-chevron-down"></i></a>
+                            <div class="menu-level-one">
+                                <ul class="sub-level-one">
+                                    <li><a href="#">Topwear</a></li>
+                                    <li><a href="#">Bottomwear</a></li>
+                                    <li><a href="#">Footwear</a></li>
+                                    <li><a href="#">Innerwear & Sleepwear</a></li>
+                                    <li><a href="#">Sports & Activewear</a></li>
+                                    <li><a href="#">Fashion Accessories</a></li>
+                                    <li><a href="#">Plus Size</a></li>
+                                    <li><a href="#">Offers & Occassion</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="main-menu">Offers <i
+                                    class="fa fa-chevron-down"></i></a>
+                            <div class="menu-level-one">
+                                <ul class="sub-level-one">
+                                    <li><a href="#">Topwear</a></li>
+                                    <li><a href="#">Bottomwear</a></li>
+                                    <li><a href="#">Footwear</a></li>
+                                    <li><a href="#">Innerwear & Sleepwear</a></li>
+                                    <li><a href="#">Sports & Activewear</a></li>
+                                    <li><a href="#">Fashion Accessories</a></li>
+                                    <li><a href="#">Plus Size</a></li>
+                                    <li><a href="#">Offers & Occassion</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-4 order-lg-2" id="occassion">
+                    <div class="toggle-menu">
+                        <i class="ti-gift"></i> <span>Occassion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-title pt32 pb32 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3 class="page-title-head">
+                        Checkout
+                    </h3>
+                    <div class="page-list">
+                        <ul class="breadcrumb">
+                            <li><a href="#">Home /</a></li>
+                            <li><a href="#">My Dashboard /</a></li>
+                            <li>Account Information</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="dashboard-wrapper pt40 pb40">
+            <div class="row">
+                <div class="col-sm-3">
+                    <ul class="dashboard-left-sidebar">
+                        <li>
+                            <a href="#">My Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#" class="active">Account information</a>
+                        </li>
+                        <li>
+                            <a href="#">Billing & Shipping</a>
+                        </li>
+                        <li>
+                            <a href="#">My Orders</a>
+                        </li>
+                        <li>
+                            <a href="#">My Wishlist</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-9">
+                    <div class="dashboard-righs-sidebar">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="reward-point-feature">
+                                    <form action="">
+                                        <h6>Change Password (Leaving these empty will keep your current password)</h6>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="mb-2 col-sm-4">
+                                                <label class="control-label" for="password">Old Password</label>
+                                                <input type="password" name="password" value="" placeholder="Password"
+                                                    class="form-control">
+                                            </div>
+                                            <div class="mb-2 col-sm-4">
+                                                <label class="control-label" for="password">New Password</label>
+                                                <input type="password" name="password" value="" placeholder="Password"
+                                                    class="form-control">
+                                            </div>
+                                            <div class="mb-2 col-sm-4">
+                                                <label class="control-label" for="input-confirm">Re-enter Password
+                                                    Confirm</label>
+                                                <input type="password" name="confirm-password" value=""
+                                                    placeholder="Password Confirm" class="form-control">
+                                            </div>
+                                        </div>
+                                        <button class="main-button colored">Update Password</button>
+                                    </form>
+                                    <br>
+                                    <form action="">
+                                        <h6>Update Account Information</h6>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="mb-2 col-sm-6">
+                                                <label class="control-label" for="input-name">Name</label>
+                                                <input type="text" name="name" value="" placeholder="Name"
+                                                    id="input-name" class="form-control">
+                                            </div>
+                                            <div class="mb-2 col-sm-6">
+                                                <label class="control-label" for="input-email">E-Mail</label>
+                                                <input type="email" name="email" value="" placeholder="E-Mail"
+                                                    id="input-email" class="form-control">
+                                            </div>
+                                            <div class="mb-2 col-sm-6">
+                                                <label class="control-label" for="input-num">Number</label>
+                                                <input type="text" name="number" value="" placeholder="+977-123456789"
+                                                    id="input-num" class="form-control">
+                                            </div>
+                                            <div class="mb-2 col-sm-6">
+                                                <label for="name">
+                                                    Country
+                                                </label>
+                                                <select name="" id="" class="w-100 py-1 form-control">
+                                                    <option value="selected">Nepal</option>
+                                                    <option>India</option>
+                                                    <option>Bhutan</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-2 col-sm-6">
+                                                <label class="control-label" for="input-email">District</label>
+                                                <select name="" id="" class="w-100 py-1 form-control">
+                                                    <option value="selected">Kathmandu</option>
+                                                    <option>Bhaktapur</option>
+                                                    <option>lalitpur</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-2 col-sm-6">
+                                                <label class="control-label" for="input-email">State</label>
+                                                <select name="" id="" class="w-100 py-1 form-control">
+                                                    <option value="selected">Kathmandu</option>
+                                                    <option>Bhaktapur</option>
+                                                    <option>lalitpur</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-2 col-sm-6">
+                                                <label class="control-label" for="input-email">City</label>
+                                                <select name="" id="" class="w-100 py-1 form-control">
+                                                    <option value="selected">Kathmandu</option>
+                                                    <option>Bhaktapur</option>
+                                                    <option>lalitpur</option>
+                                                </select>
+                                            </div>
+                                            <div class="mb-2 col-sm-6">
+                                                <label class="control-label" for="input-email">Address</label>
+                                                <input type="text" name="address" value="" placeholder="something" id=""
+                                                    class="form-control">
+                                            </div>
+                                        </div>
+                                        <button class="main-button colored">Update Information</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class=" footer pt40 pb40">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-lg-5 col-md-6 mb-xs-24 mb-sm-8">
+                    <p class="footer-title">Follow Us</p>
+                    <ul class="social_share">
+                        <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="googleplus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li><a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </li>
+                    </ul>
+                    <br>
+                    <hr>
+                    <p class="footer-title">We Accept</p>
+                    <img src="./images/free-ecommerce-icon-set-bshk-13.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-2 col-md-6 mb-xs-24 mb-sm-8">
+                    <p class="footer-title">Quick Links</p>
+                    <ul class="footer-link">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="return.html">Request Return</a></li>
+                        <li><a href="#">Payment Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Jashn Prime</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-xs-24 mb-sm-8">
+                    <p class="footer-title">Support</p>
+                    <ul class="footer-link">
+                        <li><a href="#">Youtube Channel</a></li>
+                        <li><a href="#">How To Order</a></li>
+                        <li><a href="#">Jashn Prime</a></li>
+                        <li><a href="return.html">Request Return</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-xs-24 mb-sm-8">
+                    <p class="footer-title">Contact Information</p>
+                    <ul class="footer-link">
+                        <li><a href="#"><i class="fa fa-phone-alt"></i> +977 9843000000</a></li>
+                        <li><a href="#"><i class="fa fa-envelope"></i> mail@support.com</a></li>
+                        <li><a href="#"><i class="fa fa-map-marker"></i> location, kathmandu,
+                                Nepal</a></li>
+                        <li><a href="#"><i class="fab fa-viber"></i>+977 9843000000</a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i>+977 9843000000</a></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footend pt16 pb16">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="text-left">
+                        Coded with <i class="fa fa-heart"></i> by KTMRush
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="text-right">
+                        @ Copyrights 2021
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery-equal-height.min.js"></script>
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
