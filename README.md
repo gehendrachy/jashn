@@ -41,7 +41,7 @@ Jashn is designed to offer a seamless and dynamic shopping experience. Built on 
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/jashn.git
+    git clone [https://github.com/your-username/jashn.git](https://github.com/gehendrachy/jashn.git)
     cd jashn
     ```
 
